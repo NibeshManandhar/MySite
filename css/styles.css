@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+  font-family: 'Merriweather', serif;
+}
+
+.image-boudhanath
+{
+  width: 450px;
+  height: 450px;
+}
+
+.topContainer {
+  background-color: #e3fdfd;
+  position: relative;
+  padding: 100px;
+}
+
+.middleContainer {}
+
+.buttomContainer {}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.top-cloud {
+  margin: 0 40% 0 60%;
+}
+
+h1 {
+  font-size: 562.5%;
+  margin-top: 50px;
+  font-family: 'Dancing Script', cursive;
+  color: #71c9ce;
+}
+
+h2 {
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.6rem;
+  color: #71c9ce;
+  font-weight: normal;
+}
+
+h3 {
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+a {
+  color: #11999E;
+}
+a:link {
+  color: #11999E;
+}
+a:hover {
+  color: #0fabbc;
+}
+
+a:active {
+  color: #fa163f;
+}
+
+.profile-picture {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%
+}
+
+.coding-image {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+.coding-text
+{
+  text-align: right;
+}
+.skills-image
+{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.camera-image
+{
+  width:20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row
+{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+hr
+{
+  border-style: dotted;
+  border-bottom: 0;
+  border-width:5px;
+  color: #EAF6F6;
+  width: 5%;
+}
+
+.btn {
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color:#66BFBF;
+	border-radius:6px;
+	border:1px solid #337fed;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1570cd;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color:#1e62d0;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.bottom-container
+{
+background:#66BFBF;
+height: 10rem;
+line-height: 3;
+}
+.copyright
+{
+  color: #EAF6F6;
+}
