@@ -17,9 +17,17 @@ body {
   padding: 100px;
 }
 
-.middleContainer {}
+.middleContainer
+{
+  line-height: 2rem;
+}
 
-.buttomContainer {}
+  .bottom-container
+  {
+  background:#66BFBF;
+  height: 10rem;
+  line-height: 3;
+  }
 
 .bottom-cloud {
   position: absolute;
@@ -107,39 +115,49 @@ hr
   border-width:5px;
   color: #EAF6F6;
   width: 5%;
+  margin: 6rem auto;
 }
 
+.btn-grp
+{
+  margin: 6rem;
+}
 .btn {
-	box-shadow:inset 0px 1px 0px 0px #97c4fe;
-	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
-	background-color:#66BFBF;
-	border-radius:6px;
-	border:1px solid #337fed;
+  color:white;
+  background:#66BFBF;
+	border:1px solid #e3fdfd;
 	display:inline-block;
 	cursor:pointer;
-	color:white;
-	font-family:Arial;
-	font-size:15px;
+  border-radius:6px;
+  transition: 1s;
+
+	font-family:'Montserrat', sans-serif;
+	font-size:18px;
 	font-weight:bold;
 	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #1570cd;
+	overflow: hidden;
 }
 .btn:hover {
-	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
-	background-color:#1e62d0;
+	background:linear-gradient(to bottom, #a6e3e9 5%, #71c9ce 100%);
+	background-color:#0fabbc;
 }
 .btn:active {
 	position:relative;
 	top:1px;
 }
-.bottom-container
-{
-background:#66BFBF;
-height: 10rem;
-line-height: 3;
-}
 .copyright
 {
   color: #EAF6F6;
+}
+p
+{
+color:#40514E
+}
+.contact-me
+{
+  line-height: 3rem;
+}
+.footer-link
+{
+  margin:auto 1rem;
 }
